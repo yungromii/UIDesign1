@@ -17,7 +17,7 @@ body {
 }
 
 p, li {
-	font-size:  22px;
+	font-size:  20px;
 	line-height: 30px;
 }
 
@@ -29,6 +29,11 @@ p, li {
 
 h1, p {
 	margin-bottom:  20px;
+}
+
+h3 {
+	margin-top: 20px;
+margin-bottom: 10px;
 }
 
 ul, ol {
