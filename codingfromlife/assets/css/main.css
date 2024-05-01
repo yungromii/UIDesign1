@@ -1,0 +1,298 @@
+body {
+	background: deeppink;
+}
+
+#align {
+	display: flex;
+  align-items: center;
+  justify-content: center;	
+  height: 100vh;
+}
+
+#stage {
+	width: 800px;
+	height: 200px;
+	margin: auto;
+	background: white;
+	position: relative;
+}
+
+#cherry {
+	width: 40px;
+	height: 40px;
+	background: red;
+	border-radius: 40px/40px;
+  top : -100px;
+	left: 150px;
+	position: absolute;
+	filter: opacity(80%)drop-shadow(3px 3px 3px pink);
+}
+
+#cherry2 {
+	width: 8px;
+	height: 12px;
+	background: white;
+	border-radius: 8px/12px;
+  top : -98px;
+	left: 155px;
+	position: absolute;
+	transform: rotate(45deg);
+	filter: opacity(80%);
+}
+
+.triangle {
+	width: 0;
+      height: 0;
+      border-left: 100px solid transparent;
+      border-right: 100px solid transparent;
+      border-bottom: 40px solid white;
+	filter: drop-shadow(3px 3px 3px pink);
+	top : -90px;
+	left: 100px;
+	position: absolute;
+}
+
+#square {
+	width: 200px;
+	height: 141px;
+	background: white;
+	top : -50px;
+	left: 100px;
+	position: absolute;
+filter:  opacity(80%)drop-shadow(3px 3px pink);
+border : 2px dotted red;
+
+	/* uncomment to add keyframe animation */
+	/* animation: spin 2s infinite; */
+
+}
+
+.line{
+width : 180px;
+height : 20px;
+margin-left : 20px;
+margin-top : 3px;
+
+}
+
+.line1{
+	background: white;
+}
+
+.line2{
+	background: red;
+	filter: opacity(80%)drop-shadow(1px 2px 1px red);
+}
+
+.line3{
+	background: lightyellow;
+}
+
+.line4{
+	background: pink;
+	filter: opacity(80%)drop-shadow(1px 2px 1px pink);
+}
+
+.line5{
+	background: red;
+	filter: opacity(80%)drop-shadow(1px 2px 1px red);
+}
+
+.line6{
+	background: lightyellow;
+}
+
+#square2 {
+	width: 240px;
+	height: 180px;
+	background: beige;
+	transform: skew(340deg);
+	left: 330px;
+top: -20px;
+	position: absolute;
+border-bottom: 12px solid lightgrey;
+border-right: 12px solid grey;
+filter: opacity(80%)drop-shadow(1px 2px 1px pink);
+}
+
+#leaf {
+	left: 380px;
+top: -20px;
+position: absolute;
+transform: rotate(45deg);
+width: 8px;
+	height: 220px;
+	background: green;
+	filter: opacity(80%)drop-shadow(1px 2px 3px grey);
+}
+
+.flower{
+	left: 285px;
+top: 150px;
+position: absolute;
+width: 40px;
+	height: 60px;
+	filter: drop-shadow(1px 2px 3px grey) ;
+	background: linear-gradient(green, lavenderblush 50%);
+	border-radius: 70% 70% 40% 40%;
+}
+
+.flower1
+{
+	transform: rotate(5deg);
+	left: 360px;
+	top: 90px;
+}
+
+.flower2
+{
+	transform: rotate(20deg);
+	background: green;
+}
+
+.flower3
+{
+	transform: rotate(75deg);
+	left: 275px;
+	top: 130px;
+}
+
+#circle2 {
+	width: 150px;
+	height: 150px;
+	background: lightyellow;
+	border-radius: 150px;
+  top : -50px;
+	left: 550px;
+	position: absolute;
+	filter:  drop-shadow(3px 3px 3px grey);
+	
+}
+
+#leftarm {
+	width: 50px;
+	height: 60px;
+	
+	border-radius: 50px/60px;
+  top : -25px;
+	left: 660px;
+	position: absolute;
+	transform: rotate(45deg);
+	
+	border : 2px dotted blue;
+}
+
+#leftleg {
+	width: 50px;
+	height: 60px;
+	background: turquoise;
+	border-radius: 50px/60px;
+  top : 35px;
+	left: 670px;
+	position: absolute;
+	transform: rotate(45deg);
+
+	filter:  opacity(70%) drop-shadow(3px 0px 3px grey);
+}
+
+#eye1 {
+	width: 20px;
+	height: 40px;
+	background: blue;
+	border-radius: 20px/40px;
+  top : -20px;
+	left: 640px;
+	position: absolute;
+	transform: rotate(-25deg);
+}
+
+#eye1-1 {
+	width: 15px;
+	height: 20px;
+	background: white;
+	border-radius: 15px/20px;
+  top : -18px;
+	left: 639px;
+	position: absolute;
+	transform: rotate(-25deg);
+}
+
+#eye2 {
+	width: 15px;
+	height: 37px;
+	background: blue;
+	border-radius: 15px/37px;
+  top : -33px;
+	left: 670px;
+	position: absolute;
+	transform: rotate(-30deg);
+}
+
+#eye2-1 {
+	width: 10px;
+	height: 18px;
+	background: white;
+	border-radius: 10px/18px;
+  top : -31px;
+	left: 668px;
+	position: absolute;
+	transform: rotate(-30deg);
+}
+
+
+#rightarm {
+	width: 50px;
+	height: 60px;
+	
+	border-radius: 50px/60px;
+  top : 0px;
+	left: 560px;
+	position: absolute;
+	transform: rotate(45deg);
+	
+	border : 2px dotted blue;
+}
+
+#rightleg {
+	width: 58px;
+	height: 68px;
+	background: turquoise;
+	border-radius: 58px/68px;
+  top : 50px;
+	left: 620px;
+	position: absolute;
+	transform: rotate(45deg);
+	filter:  opacity(70%) drop-shadow(3px 0px 3px grey);
+}
+
+	/* uncomment for css transitions */
+	/* transition: all 400ms ease; */
+}
+
+/* animations */
+
+/*
+#clip:hover {
+	transform: rotate(1200deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+*/
