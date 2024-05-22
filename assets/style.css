@@ -4,20 +4,48 @@
 	box-sizing: border-box;
 }
 
-/* adjusting fonts */
+
+@font-face {
+  font-family: Ouvrieres;
+  src: url(fonts/Ouvrieres-affamees.woff) ;
+}
+
+@font-face {
+  font-family: Karrik;
+  src: url(fonts/Karrik-Regular.ttf) ;
+}
+
+@font-face {
+  font-family: Typefesse;
+  src: url(fonts/Typefesse_Claire-Obscure.woff) ;
+}
+
+@font-face {
+  font-family: CirrusCumulus;
+  src: url(fonts/CirrusCumulus.woff) ;
+}
+
+
 
 body {
-	font-family: arial;
+	font-family: 'Ouvrieres', arial, cursive;
 	transition: background 500ms ease;
 	color: red;
 	background-color: lime;
 }
 
-.cursive {
-    font-family: cursive;
+pre{
+	font-size : 6px;
+	margin-top: 20px;
 }
 
-p, li {
+p{
+	font-family: Typefesse;
+	font-size:  25px;
+	line-height: 30px;
+}
+
+li {
 	font-size:  20px;
 	line-height: 30px;
 }
@@ -35,10 +63,13 @@ h1, p {
 h3 {
 	margin-top: 20px;
 margin-bottom: 10px;
+font-family: Typefesse;
+font-size:  25px;
 }
 
 ul, ol {
 	margin-left: 20px;
+	font-family: CirrusCumulus;
 }
 
 img {
