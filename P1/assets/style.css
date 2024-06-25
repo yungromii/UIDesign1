@@ -1,0 +1,103 @@
+* {
+	margin:  0px;
+	padding:  0px;
+	box-sizing: border-box;
+}
+
+
+@font-face {
+  font-family: Ouvrieres;
+  src: url(fonts/Ouvrieres-affamees.woff) ;
+}
+
+@font-face {
+  font-family: Karrik;
+  src: url(fonts/Karrik-Regular.ttf) ;
+}
+
+@font-face {
+  font-family: Typefesse;
+  src: url(fonts/Typefesse_Claire-Obscure.woff) ;
+}
+
+@font-face {
+  font-family: CirrusCumulus;
+  src: url(fonts/CirrusCumulus.woff) ;
+}
+
+
+
+body {
+	font-family: 'Ouvrieres', arial, cursive;
+	transition: background 500ms ease;
+	color: red;
+	background-color: lime;
+}
+
+pre{
+	font-size : 6px;
+	margin-top: 20px;
+}
+
+p{
+	font-family: Typefesse;
+	font-size:  25px;
+	line-height: 30px;
+}
+
+li {
+	font-size:  20px;
+	line-height: 30px;
+}
+
+/* adjusting spacing */
+
+#left-column {
+	padding: 20px;
+}
+
+h1, p {
+	margin-bottom:  20px;
+	font-family: Ouvrieres;
+}
+
+h3 {
+	margin-top: 20px;
+margin-bottom: 10px;
+font-family: Typefesse;
+font-size:  25px;
+}
+
+ul, ol {
+	margin-left: 20px;
+	font-family: CirrusCumulus;
+}
+
+img {
+	max-width: 100%;
+	height:  auto;
+}
+
+/* uncomment the code below to set the grid */
+
+/#grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+body {
+	overflow: hidden;
+}
+
+.scroll {
+	padding:  20px;
+	overflow: scroll;
+	height: 100vh;
+}
+
+#left-column {
+}
+
+#right-column {
+	background: #333;
+}*/
