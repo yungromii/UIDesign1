@@ -4,17 +4,6 @@
 	box-sizing: border-box;
 }
 
- a {
-      color: inherit;
-      text-decoration: none;
-
-    }
-
-a:hover {
-      color: white;
-     background-color: red;
-    }
-
 
 @font-face {
   font-family: Ouvrieres;
@@ -69,6 +58,7 @@ li {
 
 h1, p {
 	margin-bottom:  20px;
+	font-family: Ouvrieres;
 }
 
 h3 {
@@ -80,7 +70,7 @@ font-size:  25px;
 
 ul, ol {
 	margin-left: 20px;
-	font-family: Karrik;
+	font-family: CirrusCumulus;
 }
 
 img {
